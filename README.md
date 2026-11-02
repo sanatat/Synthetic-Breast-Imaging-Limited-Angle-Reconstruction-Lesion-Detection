@@ -29,8 +29,8 @@ These results are from **only six held-out positive and six held-out negative sy
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/radboud-breast-imaging.git
-cd radboud-breast-imaging
+git clone https://github.com/sanatat/Synthetic-Breast-Imaging-Limited-Angle-Reconstruction-Lesion-Detection.git
+cd Synthetic-Breast-Imaging-Limited-Angle-Reconstruction-Lesion-Detection
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -38,7 +38,7 @@ OPENBLAS_NUM_THREADS=1 python run_v16.py --seeds 12 --steps 70
 python -m unittest discover -p 'test_*.py' -v
 ```
 
-Replace `YOUR_USERNAME` with your own GitHub account after publishing. This project is designed to run on CPU; V16's simulated system-matrix calculations can take time. Results are written to `results_v16/` (ignored by Git).
+The clone URL above points to this repository. This project is designed to run on CPU; V16's simulated system-matrix calculations can take time. Results are written to `results_v16/` (ignored by Git).
 
 For a smaller smoke run (not comparable with the reported results), use:
 
